@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-nopCommerce_Test_Suite">
+              <span class="suite-name border-passed">nopCommerce Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-nopCommerce_Test_Suite">
+                    <span>D:\Programming Languages\Java\nopcommerceApp\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-nopCommerce_Test_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-nopCommerce_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-nopCommerce_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-nopCommerce_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-nopCommerce_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-nopCommerce_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-nopCommerce_Test_Suite" class="hide-methods passed suite-nopCommerce_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-nopCommerce_Test_Suite -->
+                      <a href="#" panel-name="suite-nopCommerce_Test_Suite" class="show-methods passed suite-nopCommerce_Test_Suite"> (show)</a> <!-- show-methods passed suite-nopCommerce_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-nopCommerce_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" hash-for-method="ddt_test_login(adm@yourstore.com,admin,Fail)">ddt_test_login(adm@yourstore.com,admin,Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" hash-for-method="ddt_test_login(admin@yourstore.com,admin,Pass)">ddt_test_login(admin@yourstore.com,admin,Pass)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" hash-for-method="ddt_test_login(admin@yourstore.com,adm,Fail)">ddt_test_login(admin@yourstore.com,adm,Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin" hash-for-method="ddt_test_login(adm@yourstore.com,adm,Fail)">ddt_test_login(adm@yourstore.com,adm,Fail)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct" hash-for-method="test_AddProduct">test_AddProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest" hash-for-method="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton">test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct" hash-for-method="test_IfSearchedProductWasDeletedAfterPressingDeleteButton">test_IfSearchedProductWasDeletedAfterPressingDeleteButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer" hash-for-method="test_addManufacturer">test_addManufacturer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct" hash-for-method="test_ifTheSearchedProductUpdatedAfterEditing">test_ifTheSearchedProductUpdatedAfterEditing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestLogin" hash-for-method="test_login">test_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName" hash-for-method="test_searchByProductName">test_searchByProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopCommerce_Test_Suite" title="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType" hash-for-method="test_searchProductByType">test_searchProductByType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-nopCommerce_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-nopCommerce_Test_Suite" class="panel nopCommerce_Test_Suite">
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_IfSearchedProductWasDeletedAfterPressingDeleteButton">
+                  </a> <!-- test_IfSearchedProductWasDeletedAfterPressingDeleteButton -->
+                  <span class="method-name">test_IfSearchedProductWasDeletedAfterPressingDeleteButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_login">
+                  </a> <!-- test_login -->
+                  <span class="method-name">test_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton">
+                  </a> <!-- test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton -->
+                  <span class="method-name">test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_searchProductByType">
+                  </a> <!-- test_searchProductByType -->
+                  <span class="method-name">test_searchProductByType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestAddProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_AddProduct">
+                  </a> <!-- test_AddProduct -->
+                  <span class="method-name">test_AddProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_addManufacturer">
+                  </a> <!-- test_addManufacturer -->
+                  <span class="method-name">test_addManufacturer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_searchByProductName">
+                  </a> <!-- test_searchByProductName -->
+                  <span class="method-name">test_searchByProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.DDTestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ddt_test_login(adm@yourstore.com,admin,Fail)">
+                  </a> <!-- ddt_test_login(adm@yourstore.com,admin,Fail) -->
+                  <span class="method-name">ddt_test_login</span>
+                  <span class="parameters">(adm@yourstore.com,admin,Fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ddt_test_login(admin@yourstore.com,admin,Pass)">
+                  </a> <!-- ddt_test_login(admin@yourstore.com,admin,Pass) -->
+                  <span class="method-name">ddt_test_login</span>
+                  <span class="parameters">(admin@yourstore.com,admin,Pass)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ddt_test_login(admin@yourstore.com,adm,Fail)">
+                  </a> <!-- ddt_test_login(admin@yourstore.com,adm,Fail) -->
+                  <span class="method-name">ddt_test_login</span>
+                  <span class="parameters">(admin@yourstore.com,adm,Fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ddt_test_login(adm@yourstore.com,adm,Fail)">
+                  </a> <!-- ddt_test_login(adm@yourstore.com,adm,Fail) -->
+                  <span class="method-name">ddt_test_login</span>
+                  <span class="parameters">(adm@yourstore.com,adm,Fail)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+          <div class="suite-nopCommerce_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_ifTheSearchedProductUpdatedAfterEditing">
+                  </a> <!-- test_ifTheSearchedProductUpdatedAfterEditing -->
+                  <span class="method-name">test_ifTheSearchedProductUpdatedAfterEditing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopCommerce_Test_Suite-class-passed -->
+        </div> <!-- panel nopCommerce_Test_Suite -->
+        <div panel-name="test-xml-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Programming Languages\Java\nopcommerceApp\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;nopCommerce Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestLogin&quot;/&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.DDTestLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Products Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestAddProduct&quot;/&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName&quot;/&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType&quot;/&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct&quot;/&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct&quot;/&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Products Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Manufacturers Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Manufacturers Tests --&gt;
+&lt;/suite&gt; &lt;!-- nopCommerce Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for nopCommerce Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Products Tests (6 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Manufacturers Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for nopCommerce Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for nopCommerce Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_nopCommerce_Test_Suite');
+function tableData_nopCommerce_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton')
+data.setCell(0, 2, 'org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest')
+data.setCell(0, 3, 27909);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test_addManufacturer')
+data.setCell(1, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer')
+data.setCell(1, 3, 12932);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test_AddProduct')
+data.setCell(2, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestAddProduct')
+data.setCell(2, 3, 6858);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ddt_test_login')
+data.setCell(3, 2, 'org.apache.maven.archetypes.nopcommerceApp.DDTestLogin')
+data.setCell(3, 3, 6675);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_ifTheSearchedProductUpdatedAfterEditing')
+data.setCell(4, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct')
+data.setCell(4, 3, 6325);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_IfSearchedProductWasDeletedAfterPressingDeleteButton')
+data.setCell(5, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct')
+data.setCell(5, 3, 4653);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test_searchByProductName')
+data.setCell(6, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName')
+data.setCell(6, 3, 639);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test_searchProductByType')
+data.setCell(7, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType')
+data.setCell(7, 3, 601);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ddt_test_login')
+data.setCell(8, 2, 'org.apache.maven.archetypes.nopcommerceApp.DDTestLogin')
+data.setCell(8, 3, 550);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ddt_test_login')
+data.setCell(9, 2, 'org.apache.maven.archetypes.nopcommerceApp.DDTestLogin')
+data.setCell(9, 3, 542);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ddt_test_login')
+data.setCell(10, 2, 'org.apache.maven.archetypes.nopcommerceApp.DDTestLogin')
+data.setCell(10, 3, 541);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test_login')
+data.setCell(11, 2, 'org.apache.maven.archetypes.nopcommerceApp.TestLogin')
+data.setCell(11, 3, 9);
+window.suiteTableData['nopCommerce_Test_Suite']= { tableData: data, tableDiv: 'times-div-nopCommerce_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-nopCommerce_Test_Suite">
+              </div> <!-- times-div-nopCommerce_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for nopCommerce Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-nopCommerce_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">7311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_login</span>
+                <span class="method-start">12717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">12736 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12736 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.DDTestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(firefox)</span>
+                <span class="method-start">18332 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">24844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ddt_test_login(admin@yourstore.com,admin,Pass)</span>
+                <span class="method-start">24845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">31521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">31522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ddt_test_login(admin@yourstore.com,adm,Fail)</span>
+                <span class="method-start">31522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">32064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32064 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ddt_test_login(adm@yourstore.com,admin,Fail)</span>
+                <span class="method-start">32065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">32608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">32609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ddt_test_login(adm@yourstore.com,adm,Fail)</span>
+                <span class="method-start">32610 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">33160 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33161 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestAddProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">38949 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">47569 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_AddProduct</span>
+                <span class="method-start">56049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">62907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62908 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">68533 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">77275 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_searchByProductName</span>
+                <span class="method-start">82922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">83562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83562 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">89177 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">96096 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">test_searchProductByType</span>
+                <span class="method-start">101419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">102021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102022 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">107664 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">115166 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_ifTheSearchedProductUpdatedAfterEditing</span>
+                <span class="method-start">118596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">124921 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">124922 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">130590 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">139208 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_IfSearchedProductWasDeletedAfterPressingDeleteButton</span>
+                <span class="method-start">142980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">147634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">147636 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">153261 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">162987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_IfAllTheChosenProductsCanBeDeletedWhenPressingDeleteButton</span>
+                <span class="method-start">169653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">197563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197563 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">203764 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">212128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_addManufacturer</span>
+                <span class="method-start">215599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">228531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">228532 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,17 @@
+org\apache\maven\archetypes\nopcommerceApp\TestSearchProductByType.class
+utilities\Reporting.class
+org\apache\maven\archetypes\nopcommerceApp\TestDeleteSearchedProduct.class
+org\apache\maven\archetypes\nopcommerceApp\TestSearchProductByName.class
+org\apache\maven\archetypes\nopcommerceApp\TestAddProduct.class
+utilities\ReadConfig.class
+org\apache\maven\archetypes\nopcommerceApp\ClearAllProductsTest.class
+org\apache\maven\archetypes\nopcommerceApp\TestAddManufacturer.class
+pageObjects\LoginPage.class
+pageObjects\BasePage.class
+org\apache\maven\archetypes\nopcommerceApp\TestBase.class
+org\apache\maven\archetypes\nopcommerceApp\TestLogin.class
+pageObjects\AddProduct.class
+pageObjects\SearchProduct.class
+org\apache\maven\archetypes\nopcommerceApp\DDTestLogin.class
+org\apache\maven\archetypes\nopcommerceApp\TestEditSearchedProduct.class
+pageObjects\AddManufacturer.class

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;objects.GoogleSearch&apos; to &apos;GoogleSearchPage&apos;&#x0D;&#x0A;- Original project: &apos;PageObjectModel&apos;&#x0D;&#x0A;- Original element: &apos;objects.GoogleSearch&apos;&#x0D;&#x0A;- Renamed element: &apos;objects.GoogleSearchPage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;GoogleSearch&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;objects{GoogleSearch.java[GoogleSearch" matchStrategy="1" name="GoogleSearchPage" qualified="false" references="true" similarDeclarations="false" stamp="1677420551418" textual="false" version="1.0"/>
+</session>

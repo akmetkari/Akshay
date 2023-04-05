@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="nopCommerce Test Suite">
+
+     <listeners>
+       <listener class-name="utilities.Reporting"/>
+     </listeners>
+  
+
+  <test  name="Login Tests"  > 
+  
+    <parameter name="browser" value="firefox"/>
+    
+     <classes>
+    
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestLogin"/>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.DDTestLogin"/>
+      
+    </classes>
+  </test>
+
+  <test  name="Products Tests" preserve-order="true">
+  
+    <parameter name="browser" value="chrome"/>
+    
+    <classes> 
+    
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddProduct"/>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByName"/>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestSearchProductByType"/>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestEditSearchedProduct"/>    
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestDeleteSearchedProduct"/>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.ClearAllProductsTest"/>
+    </classes>
+  </test> 
+  
+  <test name="Manufacturers Tests" preserve-order="true">
+  
+    <parameter  name="browser" value="chrome"/>
+    
+    <classes>
+       <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer"/>
+    </classes>
+  </test>
+  
+ 
+</suite> 

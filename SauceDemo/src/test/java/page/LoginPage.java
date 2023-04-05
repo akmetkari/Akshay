@@ -1,0 +1,33 @@
+package page;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage 
+{
+	WebDriver driver;
+	
+	public LoginPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	//Locators 
+	
+	By password = By.id("password");
+	By loginButton = By.id("login-button");
+	By userName = By.id("user-name");
+	
+	//methods
+	public void enterDetails(String usName,String pswd)
+	{
+		driver.findElement(userName).sendKeys(usName);;
+		driver.findElement(password).sendKeys(pswd);
+		
+	}
+	
+	public void clickLogin()
+	{
+		driver.findElement(loginButton).click();
+	}
+	
+}

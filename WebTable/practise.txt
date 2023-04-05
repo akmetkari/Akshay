@@ -1,0 +1,20 @@
+website:
+https://seleniumpractise.blogspot.com/2021/08
+
+whole table xpath:
+1. //table[contains(@id,'customers')]
+
+2. //table[@id='customers']
+
+
+
+Table headings 
+ //table[contains(@id,'cust')]//th
+
+Table all data except headings
+//table[contains(@id,'cust')]//td
+
+Table data of row 4 and column 2 
+//table[contains(@id,'cust')]//tr[4]//td[2]
+
+ 

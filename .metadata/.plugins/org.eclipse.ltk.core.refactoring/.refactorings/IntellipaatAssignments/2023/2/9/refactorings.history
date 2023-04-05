@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;module9.Assignment2&apos; to &apos;Assignment2_3&apos;&#x0D;&#x0A;- Original project: &apos;IntellipaatAssignments&apos;&#x0D;&#x0A;- Original element: &apos;module9.Assignment2&apos;&#x0D;&#x0A;- Renamed element: &apos;module9.Assignment2_3&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Assignment2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;module9{Assignment2.java[Assignment2" matchStrategy="1" name="Assignment2_3" qualified="false" references="true" similarDeclarations="false" stamp="1677522941121" textual="false" version="1.0"/>
+</session>

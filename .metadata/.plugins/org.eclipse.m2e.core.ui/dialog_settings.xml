@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Project1"/>
+			<item value="IntellipaatAssignments"/>
+			<item value="nopcommerceApp"/>
+			<item value="4thFeb"/>
+			<item value="javaPoint"/>
+			<item value="hello"/>
+			<item value="NewSel"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Project1"/>
+			<item value="IntellipaatAssignments"/>
+			<item value="nopcommerceApp"/>
+			<item value="4thFeb"/>
+			<item value="javaPoint"/>
+			<item value="hello"/>
+			<item value="NewSel"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Learning\Eclipse\Assignment"/>
+			<item value="D:\Learning\Eclipse\Jan14\src"/>
+			<item value="D:\Learning\Eclipse\meak"/>
+			<item value="D:\Learning\Eclipse\NewSel"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Log4jExample.Log4jExample"/>
+			<item value="inetBankingV1.inetBankingV1"/>
+			<item value="Flipkart.FlipkartFullFlow"/>
+			<item value="Intellipaatproject1.IntellipaatProject1"/>
+		</list>
+		<list key="groupId">
+			<item value="Log4jExample"/>
+			<item value="inetBankingV1"/>
+			<item value="Flipkart"/>
+			<item value="Intellipaatproject1"/>
+		</list>
+		<list key="artifactId">
+			<item value="Log4jExample"/>
+			<item value="inetBankingV1"/>
+			<item value="FlipkartFullFlow"/>
+			<item value="IntellipaatProject1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="66"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Learning\Eclipse\New folder\Selenium-POM-TestNG-Maven-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,17 @@
+2023-03-28 00:43:28,895 +0530 [main] INFO  (BaseClass.java:31) - For info only
+2023-03-28 00:46:36,572 +0530 [main] INFO  (BaseClass.java:25) - For info only
+2023-03-28 01:06:30,697 +0530 [main] INFO  (TC_LoginTest.java:15) - URL is open
+2023-03-28 01:06:30,750 +0530 [main] INFO  (TC_LoginTest.java:18) - Entered userName
+2023-03-28 01:06:30,848 +0530 [main] INFO  (TC_LoginTest.java:20) - Entered Password
+2023-03-28 01:06:36,312 +0530 [main] INFO  (TC_LoginTest.java:28) - Login test passed
+2023-03-28 01:06:36,312 +0530 [main] INFO  (TC_LoginTest.java:38) - for info only
+2023-03-28 01:08:14,046 +0530 [main] INFO  (TC_LoginTest.java:15) - URL is open
+2023-03-28 01:08:14,088 +0530 [main] INFO  (TC_LoginTest.java:18) - Entered userName
+2023-03-28 01:08:14,183 +0530 [main] INFO  (TC_LoginTest.java:20) - Entered Password
+2023-03-28 01:08:18,114 +0530 [main] INFO  (TC_LoginTest.java:28) - Login test passed
+2023-03-28 01:08:18,115 +0530 [main] INFO  (TC_LoginTest.java:38) - for info only
+2023-04-02 02:09:15,686 +0530 [main] INFO  (TC_LoginTest.java:15) - URL is open
+2023-04-02 02:09:15,740 +0530 [main] INFO  (TC_LoginTest.java:18) - Entered userName
+2023-04-02 02:09:15,908 +0530 [main] INFO  (TC_LoginTest.java:20) - Entered Password
+2023-04-02 02:09:18,286 +0530 [main] INFO  (TC_LoginTest.java:28) - Login test passed
+2023-04-02 02:09:18,286 +0530 [main] INFO  (TC_LoginTest.java:38) - for info only

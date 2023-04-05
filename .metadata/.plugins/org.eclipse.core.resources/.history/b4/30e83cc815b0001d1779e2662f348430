@@ -1,0 +1,14 @@
+package module4;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Assignment5 
+{
+	public static void main(String[] args) 
+	{
+		//Step1 -launch browser
+				System.setProperty("webdriver.gecko.driver", "D://learning//drivers//geckoDriver.exe");
+				WebDriver driver = new FirefoxDriver();
+	}
+}

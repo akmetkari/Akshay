@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nopCommerce Test Suite]">
+  <listeners>
+    <listener class-name="utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Manufacturers Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer">
+        <methods>
+          <include name="test_addManufacturer"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.apache.maven.archetypes.nopcommerceApp.TestAddManufacturer -->
+    </classes>
+  </test> <!-- Manufacturers Tests(failed) -->
+</suite> <!-- Failed suite [nopCommerce Test Suite] -->
